@@ -142,7 +142,7 @@ void ClearKeys(void)
 int main(int argc, char *argv[])
 {
 //23 dec 09 : on initialise les joysticks
-    if (SDL_Init( SDL_INIT_VIDEO | SDL_INIT_JOYSTICK | SDL_INIT_AUDIO ) < 0) {
+    if (SDL_Init( SDL_INIT_VIDEO | SDL_INIT_AUDIO ) < 0) {
         printf("%s\n", SDL_GetError());
         exit(1);
     }
